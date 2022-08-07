@@ -43,7 +43,7 @@ class SSPANEL:
                         {
                             "title": "ikuuu 签到通知",
                             "thumb_media_id": qywx_media_id,
-                            "content_source_url": "https://ikuuu.co/",
+                            "content_source_url": "https://www.mxyssr.com/",
                             "content": content.replace("\n", "<br>"),
                             "digest": content,
                         }
@@ -58,7 +58,7 @@ class SSPANEL:
                 "textcard": {
                     "title": "ikuuu 签到通知",
                     "description": content,
-                    "url": "https://ikuuu.co/",
+                    "url": "https://www.mxyssr.com/",
                 },
             }
         result = requests.post(url=f"https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token={token}",
